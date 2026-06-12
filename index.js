@@ -30,5 +30,5 @@ form.addEventListener("submit", async function (e) {
     }
 
     btn.disabled = false;
-    btn.innerText = "Request Full Details";
+    btn.innerText = "Book Now";
 });
