@@ -37,14 +37,7 @@
 
         }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        .headline {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-        }
+
 
         .btn-primary {
             background-color: var(--bs-primary);
@@ -149,7 +142,7 @@
         }
 
         .payment-card {
-            background-color: var(--primary-burgundy);
+            background-color: var(--bs-primary);
             color: white;
             border-radius: 1.5rem;
             padding: 3rem;
@@ -340,8 +333,7 @@
                     <h2 class="hero-project-name" data-i18n="hero_badge">Talala</h2>
                     <h1 class="fw-bold mb-4 " data-i18n="hero_title">Elevate Your Living Standard at Talala
                     </h1>
-                    <p class="lead mb-5 opacity-90" data-i18n="hero_subtitle">A masterpiece of architectural elegance by
-                        Madinet Masr, nestled in the heart of Sarai's most exclusive precinct.</p>
+                    <p class="lead mb-5 opacity-90" data-i18n="hero_subtitle"></p>
                     <div class="d-flex flex-column flex-sm-row gap-3">
                         <a href="#contact" class="btn btn-primary btn-sm px-5 py-3" data-i18n="cta_book">BOOK YOUR
                             UNIT</a>
@@ -482,7 +474,6 @@
     <section class="section-gap" id="payment">
         <div class="container">
             <div class="row g-5 align-items-stretch">
-
                 <!-- Units -->
                 <div class="col-lg-6">
                     <h2 class="display-5 text-primary mb-5" data-i18n="units_title">
@@ -490,7 +481,6 @@
                     </h2>
 
                     <div class="d-flex flex-column gap-4">
-
                         <!-- Apartments -->
                         <div class="p-4 rounded-4 border shadow-sm bg-white">
                             <h4 class="fw-bold mb-3" data-i18n="apartments_title">Apartments</h4>
@@ -777,86 +767,25 @@
     <script src="index.js"></script>
 
     <script>
-
-
-
-
-
         const translations = {
             en: {
-                form_name: "Full Name",
-                form_phone: "Phone Number",
-                form_whatsapp: "WhatsApp Number",
-                form_unit_interest: "Unit Interest",
-                select_unit_type: "Select Unit Type",
-
-                apartments_title: "Apartments",
-                townhouses_title: "Townhouses",
-                svillas_title: "Serviced Villas",
-                villas_title: "Villas",
-
-                form_submit: "Send Inquiry",
-
-                form_success_message:
-                    "Your information has been submitted successfully! Our sales team will contact you soon.",
-
-                form_error_message:
-                    "Something went wrong. Please try again.",
-                product_name: "TALALA",
                 nav_about: "Project Details",
-                nav_developer: "Developer",
                 nav_gallery: "Gallery",
-                nav_payment: "Payment Plan",
-                nav_contact: "Contact Us",
+                nav_payment: "Payment",
+                nav_contact: "Contact",
                 toggle_lang: "العربية",
-                call_now: "Call Now",
+
                 hero_badge: "Talala",
                 hero_title: "Elevate Your Living Standard at Talala",
                 hero_subtitle: "Different vision",
+
                 cta_book: "BOOK YOUR UNIT",
                 cta_brochure: "DOWNLOAD BROCHURE",
-                stat_years: "Years Experience",
-                stat_units: "Happy Families",
-                stat_area: "Land Bank (m²)",
-                stat_projects: "Active Projects",
-                about_title: "Where Heritage Meets Modern Luxury",
-                about_desc: "Talala is not just a residence; it is a statement of intent. Designed for those who appreciate the finer details, it offers a seamless blend of lush green spaces and cutting-edge architectural sophistication.",
-                feat_1: "Private Crystal Lagoon Access",
-                feat_2: "5-Star Concierge Services",
-                feat_3: "Smart Home Ready Infrastructures",
-                gallery_title: "Visualizing Excellence",
-                gallery_desc: "Explore the cinematic beauty of Talala, from grand exteriors to meticulously crafted interiors.",
-                units_title: "Investment Opportunities",
-                unit_1: "Premium Apartments",
-                unit_1_desc: "1 to 3 Bedrooms • Starting from 110m²",
-                unit_2: "Luxury Duplexes",
-                unit_2_desc: "Private Garden • Starting from 180m²",
-                unit_3: "Signature Villas",
-                unit_3_desc: "Detached & Semi-Detached • Private Pool",
-                pay_badge: "LIMITED TIME OFFER",
-                pay_title: "Simplified Ownership",
-                pay_down: "5% Down Payment",
-                pay_down_desc: "Secure your unit today with an exclusive low entry point.",
-                pay_years: "8 Years Installments",
-                pay_years_desc: "Flexible interest-free payment plans tailored to your needs.",
-                pay_delivery: "Delivery in 2026",
-                pay_delivery_desc: "Ready to move into your dream home within Sarai.",
-                pay_cta: "RESERVE NOW",
-                contact_title: "Contact Us",
-                contact_subtitle: "Our specialized consultants are ready to assist you in finding your perfect property match.",
-                contact_loc: "Cairo-Suez Road, New Cairo",
-                form_name: "Full Name",
-                form_phone: "Phone Number",
-                form_email: "Email Address",
-                form_interest: "Property Type Interest",
-                form_submit: "Book Now",
-                copyright: "© 2026 Madinet Masr. All rights reserved.",
-                foot_privacy: "Privacy Policy",
-                foot_terms: "Terms of Service",
-                foot_cookies: "Cookies Settings",
+
                 about_tag: "The Project Details",
                 about_title: "Talala New Heliopolis",
                 about_desc: "Talala is a large-scale integrated residential compound developed by Madinet Masr in New Heliopolis, East Cairo. It offers a modern community lifestyle combining housing, greenery, services, and connectivity.",
+
                 feat_1: "Strategic location in New Heliopolis near Suez Road & Ring Road",
                 feat_2: "Wide green areas and landscaped open spaces",
                 feat_3: "Diverse unit types: apartments, duplexes, townhouses & villas",
@@ -876,18 +805,20 @@
 
                 about_developer_title: "Developer",
                 about_developer_desc: "Madinet Masr (MMHD) – leading Egyptian real estate developer",
+
+                gallery_title: "Visualizing Excellence",
+                gallery_desc: "Explore the cinematic beauty of Talala, from grand exteriors to meticulously crafted interiors.",
+
                 units_title: "Available Units",
 
                 apartments_title: "Apartments",
-                apartments_desc: "1 Bedroom: 4.3M EGP • 2 Bedrooms: 9.2M EGP • 3 Bedrooms: 11.3M EGP",
-
                 townhouses_title: "Townhouses",
-                townhouses_desc: "Echo House 166m²: 17M EGP • Den House 173m²: 19.7M EGP",
-
                 svillas_title: "S-Villas",
-                svillas_desc: "216m²: 22.5M EGP • 220m² Corner: 24.3M EGP",
-
                 villas_title: "Standalone Villas",
+
+                apartments_desc: "1 Bedroom: 4.3M EGP • 2 Bedrooms: 9.2M EGP • 3 Bedrooms: 11.3M EGP",
+                townhouses_desc: "Echo House 166m²: 17M EGP • Den House 173m²: 19.7M EGP",
+                svillas_desc: "216m²: 22.5M EGP • 220m² Corner: 24.3M EGP",
                 villas_desc: "179m²: 24.2M EGP • 208m²: 28M EGP • 247m²: 32.7M EGP • 288m²: 40.3M EGP",
 
                 pay_badge: "TALALA PAYMENT PLANS",
@@ -911,91 +842,53 @@
                 plan75_y3: "5 Years → 51% Discount",
 
                 pay_cta: "RESERVE YOUR UNIT",
-                one_bedroom: "One Bedroom",
-                two_bedrooms: "Two Bedrooms",
-                three_bedrooms: "Three Bedrooms"
-            },
-            ar: {
-                form_name: "الاسم بالكامل",
-                form_phone: "رقم الهاتف",
-                form_whatsapp: "رقم الواتساب",
-                form_unit_interest: "نوع الوحدة",
-                select_unit_type: "اختر نوع الوحدة",
 
-                apartments_title: "شقق",
-                townhouses_title: "تاون هاوس",
-                svillas_title: "فيلات خدمة",
-                villas_title: "فيلات",
+                contact_title: "Let's Talk Business",
+                contact_subtitle: "Our specialized consultants are ready to assist you in finding your perfect property match.",
+                contact_loc: "Cairo-Suez Road, New Cairo",
 
-                form_submit: "إرسال الطلب",
+                form_name: "Full Name",
+                form_phone: "Phone Number",
+                form_whatsapp: "WhatsApp Number",
+                form_unit_interest: "Unit Interest",
+                select_unit_type: "Select Unit Type",
+
+                form_submit: "Send Inquiry",
 
                 form_success_message:
-                    "تم إرسال بياناتك بنجاح! سيتواصل معك فريق المبيعات قريباً.",
+                    "Your information has been submitted successfully! Our sales team will contact you soon.",
 
                 form_error_message:
-                    "حدث خطأ، حاول مرة أخرى."
-                ,
+                    "Something went wrong. Please try again.",
 
-                one_bedroom: "غرفة واحدة",
-                two_bedrooms: "غرفتين",
-                three_bedrooms: "ثلاث غرف",
+                one_bedroom: "One Bedroom",
+                two_bedrooms: "Two Bedrooms",
+                three_bedrooms: "Three Bedrooms",
 
-                product_name: "طلالة",
+                product_name: "TALALA",
+
+                copyright:
+                    "© 2026 Madinet Masr. All rights reserved."
+            },
+
+            ar: {
                 nav_about: "عن المشروع",
-                nav_developer: "المطور",
                 nav_gallery: "المعرض",
                 nav_payment: "خطط السداد",
                 nav_contact: "تواصل معنا",
                 toggle_lang: "English",
-                call_now: "اتصل الآن",
+
                 hero_badge: "طلالة",
                 hero_title: "ارتقِ بمستوى معيشتك في طلالة",
                 hero_subtitle: "رؤية مختلفة",
+
                 cta_book: "احجز وحدتك الآن",
                 cta_brochure: "تحميل البروشور",
-                stat_years: "سنوات من الخبرة",
-                stat_units: "عائلة سعيدة",
-                stat_area: "مساحة الأراضي (م²)",
-                stat_projects: "مشروع قائم",
 
-                about_title: "حيث يلتقي التراث بالفخامة العصرية",
-                about_desc: "طلالة ليست مجرد سكن؛ إنها تعبير عن التميز. صممت لأولئك الذين يقدرون التفاصيل الدقيقة، حيث توفر مزيجاً متناغماً من المساحات الخضراء والابتكار المعماري.",
-                feat_1: "دخول خاص للكريستال لاجون",
-                feat_2: "خدمات كونسيرج 5 نجوم",
-                feat_3: "بنية تحتية ذكية للمنازل",
-                gallery_title: "رؤية التميز",
-                gallery_desc: "استكشف الجمال السينمائي لطلالة، من التصاميم الخارجية المهيبة إلى الديكورات الداخلية المصنوعة بدقة.",
-                units_title: "فرص استثمارية",
-                unit_1: "شقق متميزة",
-                unit_1_desc: "1 إلى 3 غرف نوم • تبدأ من 110م²",
-                unit_2: "دوبلكس فاخر",
-                unit_2_desc: "حديقة خاصة • تبدأ من 180م²",
-                unit_3: "فيلات مميزة",
-                unit_3_desc: "مستقلة وتوين هاوس • حمام سباحة خاص",
-                pay_badge: "عرض لفترة محدودة",
-                pay_title: "تملك ببساطة",
-                pay_down: "5% مقدم",
-                pay_down_desc: "احجز وحدتك اليوم مع مقدم حجز حصري.",
-                pay_years: "تقسيط على 8 سنوات",
-                pay_years_desc: "خطط سداد مرنة بدون فوائد مصممة لتناسب احتياجاتك.",
-                pay_delivery: "الاستلام في 2026",
-                pay_delivery_desc: "استعد للانتقال لمنزل أحلامك داخل سراي.",
-                pay_cta: "احجز الآن",
-                contact_title: "تواصل معنا",
-                contact_subtitle: "مستشارونا العقاريون مستعدون لمساعدتك في العثور على الوحدة المثالية.",
-                contact_loc: "طريق القاهرة - السويس، القاهرة الجديدة",
-                form_name: "الاسم الكامل",
-                form_phone: "رقم الهاتف",
-                form_email: "البريد الإلكتروني",
-                form_interest: "نوع الوحدة المهتم بها",
-                form_submit: "احجز الان",
-                copyright: "© 2026 مدينة مصر. جميع الحقوق محفوظة.",
-                foot_privacy: "سياسة الخصوصية",
-                foot_terms: "شروط الخدمة",
-                foot_cookies: "إعدادات الكوكيز",
                 about_tag: "تفاصيل المشروع",
                 about_title: "طلالة – هليوبوليس الجديدة",
                 about_desc: "طلالة هو مشروع سكني متكامل من تطوير شركة مدينة مصر في هليوبوليس الجديدة بشرق القاهرة، ويقدم أسلوب حياة عصري يجمع بين السكن والخدمات والمساحات الخضراء والبنية التحتية الحديثة.",
+
                 feat_1: "موقع استراتيجي في هليوبوليس الجديدة بالقرب من طريق السويس والدائري",
                 feat_2: "مساحات خضراء واسعة ومناظر طبيعية مفتوحة",
                 feat_3: "تنوع الوحدات: شقق، دوبلكس، تاون هاوس، وفيلات",
@@ -1015,18 +908,20 @@
 
                 about_developer_title: "المطور العقاري",
                 about_developer_desc: "شركة مدينة مصر (MMHD) – من أكبر المطورين العقاريين في مصر",
+
+                gallery_title: "رؤية التميز",
+                gallery_desc: "استكشف الجمال السينمائي لطلالة، من التصاميم الخارجية المهيبة إلى الديكورات الداخلية المصنوعة بدقة.",
+
                 units_title: "الوحدات المتاحة",
 
                 apartments_title: "الشقق",
-                apartments_desc: "غرفة واحدة: 4.3 مليون • غرفتان: 9.2 مليون • 3 غرف: 11.3 مليون",
-
                 townhouses_title: "التاون هاوس",
-                townhouses_desc: "إيكو هاوس 166م²: 17 مليون • دين هاوس 173م²: 19.7 مليون",
-
                 svillas_title: "إس فيلا",
-                svillas_desc: "216م²: 22.5 مليون • 220م² كورنر: 24.3 مليون",
-
                 villas_title: "فيلات مستقلة",
+
+                apartments_desc: "غرفة واحدة: 4.3 مليون • غرفتان: 9.2 مليون • 3 غرف: 11.3 مليون",
+                townhouses_desc: "إيكو هاوس 166م²: 17 مليون • دين هاوس 173م²: 19.7 مليون",
+                svillas_desc: "216م²: 22.5 مليون • 220م² كورنر: 24.3 مليون",
                 villas_desc: "179م²: 24.2 مليون • 208م²: 28 مليون • 247م²: 32.7 مليون • 288م²: 40.3 مليون",
 
                 pay_badge: "أنظمة السداد في طلالة",
@@ -1049,10 +944,36 @@
                 plan75_y2: "8 سنوات → خصم 42٪",
                 plan75_y3: "5 سنوات → خصم 51٪",
 
-                pay_cta: "احجز وحدتك الآن"
+                pay_cta: "احجز وحدتك الآن",
+
+                contact_title: "تواصل معنا",
+                contact_subtitle: "مستشارونا العقاريون مستعدون لمساعدتك في العثور على الوحدة المثالية.",
+                contact_loc: "طريق القاهرة - السويس، القاهرة الجديدة",
+
+                form_name: "الاسم الكامل",
+                form_phone: "رقم الهاتف",
+                form_whatsapp: "رقم الواتساب",
+                form_unit_interest: "نوع الوحدة",
+                select_unit_type: "اختر نوع الوحدة",
+
+                form_submit: "إرسال الطلب",
+
+                form_success_message:
+                    "تم إرسال بياناتك بنجاح! سيتواصل معك فريق المبيعات قريباً.",
+
+                form_error_message:
+                    "حدث خطأ، حاول مرة أخرى.",
+
+                one_bedroom: "غرفة واحدة",
+                two_bedrooms: "غرفتين",
+                three_bedrooms: "ثلاث غرف",
+
+                product_name: "طلالة",
+
+                copyright:
+                    "© 2026 مدينة مصر. جميع الحقوق محفوظة."
             }
         };
-
         let currentLang = 'ar';
         document.addEventListener("DOMContentLoaded", function () {
             document.documentElement.lang = currentLang;
@@ -1061,7 +982,6 @@
         });
 
         function toggleLanguage() {
-            debugger
             currentLang = currentLang === 'en' ? 'ar' : 'en';
             document.documentElement.lang = currentLang;
             document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
@@ -1077,9 +997,6 @@
                 }
             });
         }
-
-        // Initialize content
-        updateContent();
     </script>
 </body>
 
